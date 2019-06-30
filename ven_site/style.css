@@ -1,0 +1,197 @@
+body{
+  background-color: #F4F4F4;
+  line-height: 1.5;
+}
+
+h1,h2,h3{
+  font-weight: 300;
+}
+
+h3{
+  font-size: 45px;
+}
+
+h2{
+  font-size: 50px;
+}
+
+h1{
+  font-size: 80px;
+  color:rgba(34,77,150, 0.2);
+  font-weight: 800;
+}
+
+h1::first-line{
+  color:rgba(183,41,109,0.2);
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+ul,li,p,body{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.block{
+  margin:0px 8%;
+}
+
+button{
+  border:none;
+  background: none;
+  color:#F4F4F4;
+  padding: 10px 20px;
+}
+
+.btn-blue{
+  background: #224D96;
+}
+
+.btn-red{
+  background: #B7296D;
+}
+
+.line{
+  width:90px;
+  height: 3px;
+  background:  #B7296D;
+  margin: 50px 0px;
+}
+
+.min-line{
+  width:60px;
+  height: 2px;
+  background:  #B7296D;
+  margin: 15px 0;
+}
+
+nav img[alt="letter"]{
+  padding-top: 3px;
+}
+
+nav .lnk{
+  display:inline-block;
+  border-bottom:1px solid black;
+  padding-bottom:1px;
+}
+
+nav a{
+  color:black;
+}
+
+nav li:nth-child(n+2){
+  margin-left:70px;
+}
+
+.banner{
+  background-image: url('img/ven.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color:white;
+}
+
+.banner li{
+  margin-left:65px;
+  margin-top: 30px;
+  font-size: 18px;
+  color:white;
+}
+
+.banner h2{
+  letter-spacing: 5px;
+}
+
+.banner h5{
+  margin: 40px 0px;
+}
+
+.form-block{
+  height: 329px;
+}
+
+.form-title{
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.form-1{
+  border-left: 4px solid #B7296D;
+  border-right: 4px solid #B7296D;
+  border-bottom: 4px solid #B7296D;
+  padding: 34px;
+  padding-top: 80px;
+}
+
+.form-1:before,
+.form-1:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 28%;
+  height: 0px;
+  border-top: 4px solid #B7296D;
+}
+
+.form-1:before {
+  left: 15px;
+  width: 40px;
+}
+
+.form-1:after {
+  right: 15px;
+  width: 53px;
+}
+
+
+.form-1 .form-group{
+  max-width: 320px
+}
+
+.form-1 input, .form-1 button{
+  width: 100%;
+}
+
+.form-1 input{
+  background: none;
+  border: none;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+}
+
+.form-1 ::placeholder{
+  color:white;
+}
+
+.catalog img{
+  max-width: 100%;
+  max-height: 100px;
+}
+.catalog .container-fluid .row:nth-child(n+2) h1{
+
+  color:rgba(183,41,109,0.2)
+}
+
+.catalog .container-fluid .row:nth-child(n+2) [class ^= "col-md"]{
+  background: white;
+  margin: 12px;
+  max-width: 367px;
+
+}
+
+.catalog .c-title{
+  height: 160px;
+
+}
+
+.catalog .container-fluid .row:last-child .col-md-6{
+  max-width: calc(379px*2);
+}
+
+
+.clients img{
+  max-width: 270px;
+}
